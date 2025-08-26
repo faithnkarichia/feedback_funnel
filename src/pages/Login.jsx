@@ -14,7 +14,7 @@ export default function Login(){
             <input className="border-1 rounded border-gray-400 p-1 text-gray-600 " type="text" name="password" />
             </div>
             <button className="bg-red-500 py-1 rounded-md px-2 w-full my-10 text-white hover:bg-red-400">Login</button>
-            <p className="text-xs">Dont have an account? <span className="font-bold hover:text-red-500"><a href="">SignUp</a></span></p>
+            <p className="text-xs">Dont have an account? <span className="font-bold hover:text-red-500"><a href="/signup">SignUp</a></span></p>
            </div>
         </div></>
         
