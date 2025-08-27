@@ -21,7 +21,7 @@ export default function LandingPage(){
     <div className="px-2 mt-30 text-2xl  w-[80%]   text-white relative z-10"><h1 className="font-bold text-4xl mb-5 md:text-5xl lg:text-6xl">Welcome to Feedback Funnel </h1>
     <p className="lg:text-3xl">We’ve made creating surveys simple, efficient, and powerful — just for you.</p>
 
-    <button className="bg-red-500 py-1 rounded-md px-2 mt-10">Get Started</button></div>
+    <button className="bg-red-500 py-1 rounded-md px-2 mt-10 hover:bg-red-400">Get Started</button></div>
 
 </div>
 

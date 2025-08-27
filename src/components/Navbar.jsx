@@ -28,8 +28,8 @@ navigate("/login")
     </div>
 
     <div className="hidden  md:flex justify-end gap-20 w-full">
-      <li className="bg-red-500 py-1 rounded-md px-2 "  onClick={handleLogin}>Login</li>
-      <li className="bg-red-500 py-1 rounded-md px-2  " onClick={handleSignup}>SignUp</li>
+      <li className="bg-red-500 py-1 rounded-md px-2 hover:bg-red-400 "  onClick={handleLogin}>Login</li>
+      <li className="bg-red-500 py-1 rounded-md px-2 hover:bg-red-400 " onClick={handleSignup}>SignUp</li>
     </div>
 
     <div className="md:hidden" onClick={()=>setIsOpen(!isOpen)}>
@@ -43,7 +43,7 @@ navigate("/login")
 (
     <div className="bg-gray-300 absolute z-50 p-2 w-[30%] flex justify-center mt-11  ml-[70%] lg:hidden ">
 <ul >
-    <li className="mb-5 hover:text-red-500" onClick={()=>{setIsOpen(false) ;handleLogin()}}>Login</li>
+    <li className="mb-5 hover:text-red-500 " onClick={()=>{setIsOpen(false) ;handleLogin()}}>Login</li>
     <li className="hover:text-red-500" onClick={()=>{setIsOpen(false); handleSignup()}}>SignUp</li>
 </ul>
 </div>
