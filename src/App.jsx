@@ -4,6 +4,7 @@ import {Routes,Route }from 'react-router-dom'
 import Login from './pages/Login'
 import Signup from './pages/SignupPage'
 import Dashboard from './pages/Dashboard'
+import AddSurvey from './components/AddSurvey'
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Route path="/login" element={<Login/>}/>
       <Route path="/signup" element={<Signup/>}/>
       <Route path="/dashboard" element={<Dashboard/>}/>
+      <Route path="/addSurvey" element={<AddSurvey/>}/>
         
      
     
